@@ -83,6 +83,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fencePrefab: {fileID: 5362449758800679181, guid: 7a820be910fb7bc4d9ac0971b32407b5, type: 3}
   applePrefab: {fileID: 3668156514217341732, guid: 2e94af2d609ff094a8e514c90d5edca5, type: 3}
+  coinsPrefab: {fileID: 6583128317189292943, guid: 60c4f2400d0e945449b637546b3b315c, type: 3}
   lanes:
   - -2.5
   - 0
