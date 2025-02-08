@@ -2,15 +2,11 @@ using UnityEngine;
 
 public class PlayerCollisionHandler : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] Animator animator;
+    const string hitString = "Hit";
+    
+    void OnCollisionEnter(Collision other) 
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        animator.SetTrigger(hitString);
     }
 }
