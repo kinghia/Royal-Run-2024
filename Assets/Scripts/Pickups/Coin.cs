@@ -8,6 +8,7 @@ public class Coin : Pickup
     {
         this.scoreManager = scoreManager;
     }
+    
     protected override void OnPickup()
     {
         scoreManager.IncreaseScore(100);
